@@ -230,10 +230,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
+    vendor.xiaomi.hardware.misys@1.0-vendor \
+    vendor.xiaomi.hardware.misys@2.0-vendor \
+    vendor.xiaomi.hardware.misys@3.0-vendor \
+    vendor.xiaomi.hardware.misys@4.0-vendor \
     btaudio_offload_if \
     sound_trigger.primary.lahaina \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
