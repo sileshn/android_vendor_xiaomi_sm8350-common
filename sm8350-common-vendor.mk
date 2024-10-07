@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libc2d30_bltlib \
     libcdsprpc \
+    libcheckpid \
     libconfigdb \
     libcvp2_1 \
     libcvp_common \
@@ -185,7 +186,11 @@ PRODUCT_PACKAGES += \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
+    liblogwrap_vendor \
     libmdmdetect \
+    libmicuttlefish_fs \
+    libmicuttlefish_utils \
+    libmivsock_utils \
     libmmosal-vendor \
     libnetmgr \
     libqcci_legacy \
@@ -311,7 +316,6 @@ PRODUCT_PACKAGES += \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
-    libcheckpid \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -339,16 +343,12 @@ PRODUCT_PACKAGES += \
     libloc_socket \
     liblocationservice \
     liblocationservice_glue \
-    liblogwrap_vendor \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
     libmdsprpc \
-    libmicuttlefish_fs \
-    libmicuttlefish_utils \
     libminkdescriptor \
     libminksocket \
-    libmivsock_utils \
     libmlipay \
     libmlipay@1.1 \
     libmodemapi \
