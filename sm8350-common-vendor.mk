@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
@@ -146,8 +145,6 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcvp2_1 \
     libcvp_common \
-    libdapparamstorage \
-    libdeccfg \
     libdiag \
     libdsi_netctrl \
     libdsutils \
@@ -184,22 +181,15 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
-    libstagefrightdolby \
     libthermalclient \
     libvppclient \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
     libxml \
-    libhwdap \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
-    libswgamedap \
-    libswvqe \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.qconfig@1.0 \
     vendor.qti.hardware.vpp@1.1 \
@@ -289,7 +279,6 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
-    libdlbdsservice \
     libdpmqmihal \
     libdpps \
     libdrmfs \
@@ -386,7 +375,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
-    vendor.dolby.hardware.dms@2.0-impl \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -507,7 +495,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     c2_manifest_vendor.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    manifest_vendor.dolby.hardware.dms.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     vendor.qti.gnss@4.0-service.xml \
     vendor.xiaomi.hardware.misys@1.0.xml \
@@ -529,7 +516,6 @@ PRODUCT_PACKAGES += \
     qconfigservice \
     qcrilNrd \
     vendor.display.color@1.0-service \
-    vendor.dolby.hardware.dms@2.0-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
