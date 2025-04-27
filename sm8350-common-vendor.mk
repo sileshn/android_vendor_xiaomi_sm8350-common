@@ -116,6 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin
 
 PRODUCT_PACKAGES += \
+    libldacBT_abr \
+    libldacBT_enc \
     libmisys_jni.xiaomi \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@2.0 \
@@ -453,6 +455,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    liblhdc \
+    liblhdcBT_enc \
+    liblhdcv5 \
+    liblhdcv5BT_enc \
     libmmosal \
     libmmparser_lite \
     com.qualcomm.qti.dpm.api@1.0 \
